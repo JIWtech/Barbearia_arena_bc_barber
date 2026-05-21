@@ -362,10 +362,11 @@ img {
 
 .plan-footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 8px;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
 }
 
 .price {
@@ -615,5 +616,14 @@ img {
 
   .map-btn {
     width: 100%;
+  }
+
+  .plan-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-card--highlight {
+    max-width: 100%;
+    justify-self: stretch;
   }
 }
