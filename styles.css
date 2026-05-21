@@ -390,6 +390,10 @@ img {
 .plan-card--highlight {
   border-color: rgba(224, 122, 95, 0.4);
   background: linear-gradient(160deg, rgba(18, 40, 51, 0.95), rgba(22, 48, 58, 0.95));
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  max-width: 360px;
 }
 
 .faq {
